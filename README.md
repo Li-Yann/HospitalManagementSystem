@@ -69,8 +69,9 @@ FOREIGN KEY (doctor_id) REFERENCES doctor(id)
 
 ```
 
+## Step 4: Insert sample doctor data since receptionists have no access
+
 ```bash
--- Insert sample doctor data since receptionists have no access
 INSERT INTO doctor (name, specialization) VALUES
 ('Dr. Narayan Pathak', 'Physician'),
 ('Dr. Rabindra Shrestha', 'Neurologist'),
@@ -83,7 +84,7 @@ INSERT INTO doctor (name, specialization) VALUES
 ('Dr. Harish Joshi', 'Dental Surgeon');
 ```
 
-<h2>Screenshots</h2>
+## Screenshots
 <h3>1.Add Patient</h3>
 <img src="img/menuadd.png" alt="menu" width="400" height="400">
 <h3>2.View Patients</h3>
